@@ -1,0 +1,29 @@
+{
+    "type": "navigation",
+    "view": {
+        "type": "table",
+        "navigationTitle": "Hello, world!",
+        "rows": [
+          {
+            "id": 1,
+            "type": "row",
+            "title": "Row 1",
+            "subtitle": "Body 1"
+          },
+          {
+            "id": 2,
+            "type": "row",
+            "title": "Row 2",
+            "subtitle": "Body 2"
+          },
+          {
+            "id": 3,
+            "type": "row",
+            "title": "Row 3",
+            "subtitle": "Body 3"
+          }
+        ]
+      }
+}
+
+  

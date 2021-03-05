@@ -27,9 +27,11 @@ struct Row: View, Codable {
 struct Table: View, Codable {
   
   var rows: [Row]
+  var navigationTitle: String = ""
     
-  var body: some View {
+var body: some View {
     List(rows, id: \.id) { $0 }
+      .navigationTitle(self.navigationTitle)
   }
 }
 
